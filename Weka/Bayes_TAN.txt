@@ -1,0 +1,84 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.TAN -- -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     bank-full
+Instances:    45211
+Attributes:   17
+              age
+              job
+              marital
+              education
+              default
+              balance
+              housing
+              loan
+              contact
+              day
+              month
+              duration
+              campaign
+              pdays
+              previous
+              poutcome
+              y
+Test mode:    split 90.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=17 #classindex=16
+Network structure (nodes followed by parents)
+age(4): y job 
+job(12): y month 
+marital(3): y age 
+education(4): y job 
+default(2): y balance 
+balance(4): y month 
+housing(2): y month 
+loan(2): y month 
+contact(3): y month 
+day(11): y month 
+month(12): y pdays 
+duration(9): y campaign 
+campaign(4): y month 
+pdays(10): y poutcome 
+previous(2): y 
+poutcome(4): y previous 
+y(2): 
+LogScore Bayes: -668138.5448975507
+LogScore BDeu: -674453.7259733655
+LogScore MDL: -673567.6150482903
+LogScore ENTROPY: -666691.3151573535
+LogScore AIC: -667974.3151573535
+
+
+Time taken to build model: 0.55 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.03 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        4075               90.1349 %
+Kappa statistic                          0.473 
+Mean absolute error                      0.1283
+Root mean squared error                  0.2654
+Relative absolute error                 61.3712 %
+Root relative squared error             81.5132 %
+Total Number of Instances             4521     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,963    0,545    0,928      0,963    0,945      0,480    0,918     0,987     no
+                 0,455    0,037    0,625      0,455    0,527      0,480    0,918     0,594     yes
+Weighted Avg.    0,901    0,484    0,891      0,901    0,895      0,480    0,918     0,940     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3827  149 |    a = no
+  297  248 |    b = yes
+

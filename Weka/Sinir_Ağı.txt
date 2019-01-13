@@ -1,0 +1,328 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H "4, 6"
+Relation:     bank-full
+Instances:    45211
+Attributes:   17
+              age
+              job
+              marital
+              education
+              default
+              balance
+              housing
+              loan
+              contact
+              day
+              month
+              duration
+              campaign
+              pdays
+              previous
+              poutcome
+              y
+Test mode:    split 90.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.0849839480698986
+    Node 6    1.9865144273957556
+    Node 7    1.2488986809594613
+    Node 8    0.8679517789840728
+    Node 9    1.597483853607947
+    Node 10    1.0574035725162214
+    Node 11    1.5026763156521505
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    1.084983948069899
+    Node 6    -1.9865144273957556
+    Node 7    -1.2488986809594629
+    Node 8    -0.8679517789840722
+    Node 9    -1.597483853607949
+    Node 10    -1.0574035725162214
+    Node 11    -1.502676315652149
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -4.270844065751949
+    Attrib age    -3.321205176009533
+    Attrib job=management    2.804475287189274
+    Attrib job=technician    4.1461941652512815
+    Attrib job=entrepreneur    6.365202097700702
+    Attrib job=blue-collar    4.92602279537531
+    Attrib job=unknown    3.400525622597642
+    Attrib job=retired    1.943900818242711
+    Attrib job=admin.    3.43492526365979
+    Attrib job=services    3.7224356307787803
+    Attrib job=self-employed    4.294830885806542
+    Attrib job=unemployed    3.1330309910842713
+    Attrib job=housemaid    2.3723493693004936
+    Attrib job=student    2.665670196756997
+    Attrib marital=married    0.9550991159958853
+    Attrib marital=single    1.3879090988948475
+    Attrib marital=divorced    1.9453377498892384
+    Attrib education=tertiary    2.001801550085778
+    Attrib education=secondary    1.603702017238815
+    Attrib education=unknown    1.2030666578212683
+    Attrib education=primary    3.7829362896131893
+    Attrib default=yes    0.5404189076486432
+    Attrib balance    -1.7625335997882419
+    Attrib housing=no    -0.37568558920464257
+    Attrib loan=yes    2.919088177273343
+    Attrib contact=unknown    2.4447236422839937
+    Attrib contact=cellular    0.7553387973345829
+    Attrib contact=telephone    1.1258647414365843
+    Attrib day    -0.9629925528017503
+    Attrib month=may    6.784492767266814
+    Attrib month=jun    3.338867073584818
+    Attrib month=jul    4.326389136978511
+    Attrib month=aug    3.5977143281714596
+    Attrib month=oct    1.9329166504970408
+    Attrib month=nov    3.2583853308950266
+    Attrib month=dec    3.6877101467114404
+    Attrib month=jan    5.362302240371229
+    Attrib month=feb    3.6082974799588636
+    Attrib month=mar    0.8360755069026606
+    Attrib month=apr    3.535353900748638
+    Attrib month=sep    2.9462533266728936
+    Attrib duration    -116.7525287221303
+    Attrib campaign    25.08820506709344
+    Attrib pdays    1.6325917076668637
+    Attrib previous    -7.848234358891826
+    Attrib poutcome=unknown    3.9690941694684243
+    Attrib poutcome=failure    2.3626721769187498
+    Attrib poutcome=other    0.8430846960533718
+    Attrib poutcome=success    1.4111111634239346
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -4.313362537673621
+    Attrib age    3.158237388067351
+    Attrib job=management    4.378346155288152
+    Attrib job=technician    2.0576845793825145
+    Attrib job=entrepreneur    2.772906100950148
+    Attrib job=blue-collar    3.1404064662150675
+    Attrib job=unknown    9.314804406461858
+    Attrib job=retired    3.534681352406959
+    Attrib job=admin.    5.486112451946937
+    Attrib job=services    4.163711955695627
+    Attrib job=self-employed    1.808989386251206
+    Attrib job=unemployed    2.3532111578246093
+    Attrib job=housemaid    6.185422783431902
+    Attrib job=student    -2.428499731918488
+    Attrib marital=married    2.980475657782194
+    Attrib marital=single    0.4446800157970475
+    Attrib marital=divorced    0.7887357353322119
+    Attrib education=tertiary    2.8643554937072344
+    Attrib education=secondary    2.297665411309658
+    Attrib education=unknown    1.6127933072021947
+    Attrib education=primary    1.7969864881778876
+    Attrib default=yes    -6.32841309884367
+    Attrib balance    0.7080127359824223
+    Attrib housing=no    0.9202621820306003
+    Attrib loan=yes    -1.8495203368664945
+    Attrib contact=unknown    6.446613311381218
+    Attrib contact=cellular    -0.6421171518822595
+    Attrib contact=telephone    -1.5074773796580538
+    Attrib day    -3.617712007830058
+    Attrib month=may    1.9106490447753879
+    Attrib month=jun    -0.8863782529911207
+    Attrib month=jul    5.321356972659764
+    Attrib month=aug    2.6624089540947926
+    Attrib month=oct    -0.4342306365133973
+    Attrib month=nov    7.794315500324203
+    Attrib month=dec    -4.300688803519743
+    Attrib month=jan    13.734881833004707
+    Attrib month=feb    11.67776878173572
+    Attrib month=mar    0.12559395816730923
+    Attrib month=apr    9.514024151976667
+    Attrib month=sep    -4.195929143151061
+    Attrib duration    -110.74107214763703
+    Attrib campaign    11.827176491349004
+    Attrib pdays    -4.1441371836602645
+    Attrib previous    3.4315589785227805
+    Attrib poutcome=unknown    7.794133630243063
+    Attrib poutcome=failure    8.206665459124922
+    Attrib poutcome=other    7.3679339177969165
+    Attrib poutcome=success    -14.81089516049571
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.5014638788046046
+    Attrib age    5.67754570550283
+    Attrib job=management    -2.820519890373893
+    Attrib job=technician    -1.6750472411775412
+    Attrib job=entrepreneur    -2.6903606821522317
+    Attrib job=blue-collar    -2.9569213022055028
+    Attrib job=unknown    -0.7750414410248749
+    Attrib job=retired    4.191162461242695
+    Attrib job=admin.    -4.284389392489194
+    Attrib job=services    -1.0738611993885812
+    Attrib job=self-employed    1.901823670510184
+    Attrib job=unemployed    7.158394466792623
+    Attrib job=housemaid    8.358694654775093
+    Attrib job=student    9.299433549070233
+    Attrib marital=married    1.1113938409350304
+    Attrib marital=single    0.7446086286374332
+    Attrib marital=divorced    -0.36788399138038375
+    Attrib education=tertiary    2.128350843620636
+    Attrib education=secondary    1.084980646794298
+    Attrib education=unknown    3.8664290775926475
+    Attrib education=primary    -4.047447564416766
+    Attrib default=yes    -0.05451709748212784
+    Attrib balance    -1.8526131672201998
+    Attrib housing=no    3.5397874996090084
+    Attrib loan=yes    1.7664740298799837
+    Attrib contact=unknown    8.363444905612093
+    Attrib contact=cellular    -5.154756863547863
+    Attrib contact=telephone    -1.699978621970609
+    Attrib day    -7.32396843239104
+    Attrib month=may    0.6016128388103463
+    Attrib month=jun    -6.049792171772689
+    Attrib month=jul    12.908375211227465
+    Attrib month=aug    8.7354983338697
+    Attrib month=oct    -2.431467368550654
+    Attrib month=nov    16.40932872315861
+    Attrib month=dec    -7.996889287832269
+    Attrib month=jan    10.406138736435208
+    Attrib month=feb    6.818317516689086
+    Attrib month=mar    -12.0382534841063
+    Attrib month=apr    -13.570238147891251
+    Attrib month=sep    0.7969516349881987
+    Attrib duration    -63.02436866032655
+    Attrib campaign    -5.077960194711032
+    Attrib pdays    7.3331347735981245
+    Attrib previous    -0.5591670275472403
+    Attrib poutcome=unknown    -2.2416702521299428
+    Attrib poutcome=failure    21.369281703903578
+    Attrib poutcome=other    12.146352595715538
+    Attrib poutcome=success    -28.32507298283727
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.3912540480225402
+    Attrib age    -1.4014059723387768
+    Attrib job=management    4.351465356324181
+    Attrib job=technician    1.2338645303138092
+    Attrib job=entrepreneur    2.160248488636514
+    Attrib job=blue-collar    6.706630301661155
+    Attrib job=unknown    1.610902672883901
+    Attrib job=retired    -2.2343314186098504
+    Attrib job=admin.    -0.5838995151443649
+    Attrib job=services    1.7623832218833269
+    Attrib job=self-employed    3.9764931809446633
+    Attrib job=unemployed    -0.808306300861369
+    Attrib job=housemaid    0.07150031891882723
+    Attrib job=student    -3.7844307577586633
+    Attrib marital=married    2.4068462597654805
+    Attrib marital=single    -0.10337870126941079
+    Attrib marital=divorced    -0.8979681562348885
+    Attrib education=tertiary    -1.6390131395622412
+    Attrib education=secondary    0.7329538857965877
+    Attrib education=unknown    1.9896143615780555
+    Attrib education=primary    1.819496167385339
+    Attrib default=yes    5.755450408189437
+    Attrib balance    -3.2072771116809076
+    Attrib housing=no    -24.386756156758487
+    Attrib loan=yes    -0.21318187390745316
+    Attrib contact=unknown    22.638538815457956
+    Attrib contact=cellular    -12.309580752000716
+    Attrib contact=telephone    -8.949161413808692
+    Attrib day    12.682278328690284
+    Attrib month=may    7.348989890961803
+    Attrib month=jun    -7.6218728680582055
+    Attrib month=jul    18.201146211347528
+    Attrib month=aug    20.258971890962574
+    Attrib month=oct    -27.58998340736663
+    Attrib month=nov    18.18353948739311
+    Attrib month=dec    -6.468191841866107
+    Attrib month=jan    13.909789592309084
+    Attrib month=feb    5.648880737635414
+    Attrib month=mar    -16.561677799702554
+    Attrib month=apr    7.268720328146146
+    Attrib month=sep    -18.327469701456195
+    Attrib duration    -50.425790687332174
+    Attrib campaign    11.525571362411972
+    Attrib pdays    -8.407738481486035
+    Attrib previous    -2.4306302198578775
+    Attrib poutcome=unknown    2.8667280938654454
+    Attrib poutcome=failure    -2.208432570039064
+    Attrib poutcome=other    0.6392177366650524
+    Attrib poutcome=success    1.600933570104533
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -18.19019263912041
+    Node 2    16.105238925230875
+    Node 3    0.5003429669396746
+    Node 4    0.434655639831564
+    Node 5    1.895671237028168
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -5.0501537998561625
+    Node 2    10.31200863472093
+    Node 3    4.080672402331677
+    Node 4    5.0069027373007735
+    Node 5    4.642514613855276
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -10.46772162781298
+    Node 2    4.545446820346081
+    Node 3    0.707890290404839
+    Node 4    6.08734532876642
+    Node 5    2.7174665632877097
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -18.25536741305566
+    Node 2    3.2285721265558487
+    Node 3    8.925451800757163
+    Node 4    3.552839068693497
+    Node 5    5.112752365762347
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -9.104109988150183
+    Node 2    0.37840411766772963
+    Node 3    2.401629245040469
+    Node 4    -3.9543522931164734
+    Node 5    7.498654660689893
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -17.324980139329757
+    Node 2    5.8967817854692175
+    Node 3    11.096128687000153
+    Node 4    6.909476358051396
+    Node 5    9.027616934265192
+Class no
+    Input
+    Node 0
+Class yes
+    Input
+    Node 1
+
+
+Time taken to build model: 102.23 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.03 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        4084               90.334  %
+Kappa statistic                          0.5349
+Mean absolute error                      0.1453
+Root mean squared error                  0.2607
+Relative absolute error                 69.5177 %
+Root relative squared error             80.064  %
+Total Number of Instances             4521     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,948    0,424    0,942      0,948    0,945      0,535    0,919     0,988     no
+                 0,576    0,052    0,604      0,576    0,590      0,535    0,919     0,586     yes
+Weighted Avg.    0,903    0,379    0,901      0,903    0,902      0,535    0,919     0,939     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3770  206 |    a = no
+  231  314 |    b = yes
+
